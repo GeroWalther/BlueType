@@ -15,7 +15,7 @@ const ControlScreen = ({navigation}: any) => {
           disconnect
           onPress={() => {
             // TODO: Disconnect the Bluetooth connection and navigate back to the main screen.
-            navigation.navigate('BaseTest');
+            navigation.navigate('ConnectlivityScreen');
           }}>
           Disconnect
         </Button>

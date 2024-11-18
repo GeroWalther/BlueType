@@ -355,7 +355,7 @@ const ConnectivityScreen = ({navigation}: any) => {
           return map;
         });
 
-        navigation.navigate('BaseTest', {
+        navigation.navigate('ControlScreen', {
           peripheralData,
         });
       }
